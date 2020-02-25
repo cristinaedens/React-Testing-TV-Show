@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import fetchShow from "./api/fetchShow";
+import {fetchShow} from "./api/fetchShow";
 
 import Dropdown from "react-dropdown";
 import parse from "html-react-parser";

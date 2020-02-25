@@ -1,7 +1,7 @@
 import axios from "axios";
 
 
-const fetchshow = () => {
+export const fetchShow = () => {
   return (
       axios
       .get(
@@ -16,4 +16,3 @@ const fetchshow = () => {
   )
 }
 
-export default fetchshow;
